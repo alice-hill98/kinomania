@@ -1,0 +1,193 @@
+/*CSS Mobile*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+	.header {
+		background-color: rgb(27, 158, 158);
+		min-width: 100%;
+		height: 20%;
+		text-align: center;
+	}
+
+	.logo {
+		width: 100%;
+	}
+
+	.site_content {
+		width: 100%;
+	}
+
+	.menubar {
+		width: 100%;
+		height: 100%;
+	}
+
+	.content {
+		width: 96%;
+		text-align: center;
+	}
+
+	.site_content {
+		width: 100%;
+		text-align: center;
+	}
+
+	.sidebar_container {
+		display: none;
+	}
+
+	.footer {
+		display: none;
+	}
+
+	ul.menu {
+		float: none;
+	}
+
+	ul.menu li {
+		margin: 0;
+		padding: 0;
+		float: none;
+	}
+
+	.logo h1 {
+		font: normal 235% 'century gothic', arial, sans-serif;
+	}
+
+	.logo h2 {
+		font: normal 100% 'century gothic', arial, sans-serif;
+		color: white;
+	}
+
+	.content h1, h2 {
+		font: normal 100% 'century gothic', arial;
+	}
+
+	.films_block img {
+		width: 43%;
+	}
+
+	.series_block img {
+		width: 43%;
+	}
+
+	.posts_content p {
+		line-height: 1.5em;
+		padding: 3%;
+		text-align: left;
+	}
+
+	.posts p {
+		font-size: 96%;
+	}
+	/*films page*/
+	.info_film {
+		float: none;
+		width: 93%;
+		height: 100%;
+		text-align: left;
+	}
+	.info_film h2 {
+		text-align: center;
+	}
+	.info_film img {
+		width: 86%;
+		float: none;
+		margin-left: 3%;
+		margin-bottom: 5%;
+	}
+	.button {
+		float: none;
+		text-align: center;
+	}
+	/*series page*/
+	.info_series {
+		float: none;
+		width: 93%;
+		height: 100%;
+		text-align: left;
+	}
+	.info_series h2 {
+		text-align: center;
+	}
+	.info_series img {
+		width: 86%;
+		float: none;
+		margin-left: 3%;
+		margin-bottom: 5%;
+	}
+	/*rating film page*/
+	table {
+		display: block;
+	}
+
+	th {
+		font-size: 75%;
+	}
+
+	td {
+		padding: 0;
+		margin: 0;
+		font-size: 80%;
+		text-align: left;
+	}
+	/*show page*/
+	iframe {
+		width: 88%;
+		height: 100%;
+	}
+	.description_film {
+		width: 90%;
+		text-align: left;
+		margin-left: 2%;
+	}
+	.description_film img {
+		float: none;
+		width: 73%;
+		display: block;
+		margin: 0;
+		padding: 0;
+		margin-left: 12%;
+		margin-bottom: 7%;
+	}
+	.review_name {
+		text-align: left;
+	}
+	.review_text {
+		text-align: left;
+	}
+	.send input[type="text"] {
+		width: 90%;
+	}
+	.send textarea {
+		width: 95%;
+	}
+	.send input[type="submit"] {
+		float: none;
+		width: 95%;
+	}
+	.description_series {
+		width: 90%;
+		text-align: left;
+		margin-left: 2%;
+	}
+	.description_series img {
+		float: none;
+		width: 73%;
+		display: block;
+		margin: 0;
+		padding: 0;
+		margin-left: 12%;
+		margin-bottom: 7%;
+	}
+	.send_contact input[type="text"] {
+		width: 90%;
+	}
+    .send_contact textarea {
+		width: 95%;
+	}
+    .send_contact input[type="submit"] {
+		float: none;
+		width: 95%;
+        margin-bottom: 2%;
+	}
+}
